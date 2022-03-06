@@ -4,13 +4,13 @@ import wings from "../public/Wings.jpeg"
 
 function HeroSection() {
 	return (
-		<div className="flex justify-center items-center flex-col text-center pt-40 sm:pt-30">
+		<div className="flex justify-center items-center text-center pt-40 sm:pt-10">
 			<Image src={wings} width={800} height={800}/>
       <div className="absolute">
-        <h1 className=" text-gray-900 text-7xl md:text-9xl font-italianno md:font-clarityFont1 mt-14 ">
+        <h1 className=" text-gray-900 text-7xl md:text-8xl font-italianno ">
           Clarity
         </h1>
-        <h2 className=" text-gray-900 text-2xl md:text-4xl font-dancingscript">
+        <h2 className=" text-gray-900 text-2xl md:text-3xl font-dancingscript">
           By James Henderson Hairdressing
         </h2>
         <div>
