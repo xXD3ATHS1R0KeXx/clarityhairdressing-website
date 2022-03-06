@@ -18,14 +18,14 @@ function Navbar() {
 								</div>
 							</div>
 							<div className="hidden md:block">
-								<div className="ml-10 flex items-baseline space-x-4">
+								<div className="ml-10 flex items-baseline space-x-4 font-gayathri font-bold">
 								<Link
 										activeClass="about"
 										to="about"
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer hover:bg-buttonGold text-white px-3 py-2 rounded-md text-sm font-medium"
+										className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"
 									>
 										About
 									</Link>
@@ -35,7 +35,7 @@ function Navbar() {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer hover:bg-buttonGold text-white px-3 py-2 rounded-md text-sm font-medium"
+										className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"
 									>
 										Services
 									</Link>
@@ -45,7 +45,7 @@ function Navbar() {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer hover:bg-buttonGold text-white px-3 py-2 rounded-md text-sm font-medium"
+										className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"
 									>
 										Pricing
 									</Link>
@@ -55,7 +55,7 @@ function Navbar() {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer hover:bg-buttonGold text-white px-3 py-2 rounded-md text-sm font-medium"
+										className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"
 									>
 										Contact Us
 									</Link>
@@ -66,7 +66,7 @@ function Navbar() {
 							<button
 								onClick={() => setIsOpen(!isOpen)}
 								type="button"
-								className="bg-blue-600 inline-flex items-center justify-center p-2 rounded-md text-white  hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-800 focus:ring-white"
+								className="bg-buttonGold inline-flex items-center justify-center p-2 rounded-md text-white focus:ring-white"
 								aria-controls="mobile-menu"
 								aria-expanded="false"
 							>
@@ -120,7 +120,7 @@ function Navbar() {
 				>
 					{(ref) => (
 						<div className="md:hidden" id="mobile-menu">
-							<div ref={ref}className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3">
+							<div ref={ref}className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3 font-gayathri">
 								<Link
 									href="/about"
 									activeClass="about"
@@ -128,7 +128,7 @@ function Navbar() {
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									className="cursor-pointer text-black block px-3 py-2 rounded-md text-base font-medium"
 								>
 									About us
 								</Link>
@@ -139,7 +139,7 @@ function Navbar() {
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									className="cursor-pointer text-black block px-3 py-2 rounded-md text-base font-medium"
 								>
 									Services
 								</Link>
@@ -150,7 +150,7 @@ function Navbar() {
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									className="cursor-pointer  text-black block px-3 py-2 rounded-md text-base font-medium"
 								>
 									Pricing
 								</Link>
@@ -161,7 +161,7 @@ function Navbar() {
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									className="cursor-pointer text-black block px-3 py-2 rounded-md text-base font-medium"
 								>
 									Contact us
 								</Link>

@@ -7,13 +7,23 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '275px',
+      },
+      padding: {
+        '1/2': '50%',
+        full: '100%',
+      },
       colors: {
         clarityGold: '#E5D5BB',
         buttonGold: '#d5bfa4',
-        customGrey: '#E68A8D'
+        customGrey: '#E68A8D',
+        offwhite: '#F5F5F5'
       },
-      backgroundImage: {
-        'clarityIcon': "url('/"
+      fontFamily: {
+        gayathri: ["Gayathri", "sans-serif"],
+        dancingscript: ["Dancing Script", "Cursive"],
+        italianno: ["Italianno", "Cursive"],
       }
     },
   },
