@@ -4,17 +4,17 @@ import { Link } from "react-scroll";
 import Image from 'next/image'
 
 
-function Navbar() {
+export default function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
 	return (
-		<div>
+		<div className="fixed z-10">
 			<nav className=" shadow-sm fixed w-full z-10 bg-clarityGold filter drop-shadow-lg">
 				<div className="w-full">
 					<div className="flex items-center h-20 w-full">
 						<div className="flex items-center  mx-10 md:mx-10  justify-between w-full">
 							<div className="justify-center items-center flex-shrink-0">
 								<div className="">
-									<Image src="/logo.png" width={100} height={100}/>
+									<Image src="/logo.png" width={100} height={100} priority />
 								</div>
 							</div>
 							<div className="hidden md:block">
@@ -173,5 +173,3 @@ function Navbar() {
 		</div>
 	);
 }
-
-export default Navbar;

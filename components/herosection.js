@@ -3,10 +3,10 @@ import Image from 'next/image'
 import wings from "../public/Wings.jpeg"
 import Button from "./button"
 
-function HeroSection() {
+export default function HeroSection() {
 	return (
-		<div className="flex justify-center items-center text-center pt-40 sm:pt-10">
-			<Image src={wings} width={800} height={800}/>
+		<div className="flex justify-center items-center text-center pt-40 sm:pt-10 z-0">
+			<Image src={wings} width={800} height={800} priority />
       <div className="absolute">
         <h1 className=" text-gray-900 text-7xl md:text-8xl font-italianno ">
           Clarity
@@ -25,5 +25,3 @@ function HeroSection() {
 		</div>
 	);
 }
-
-export default HeroSection; 
