@@ -11,10 +11,10 @@ function Navbar() {
 			<nav className=" shadow-sm fixed w-full z-10 bg-clarityGold filter drop-shadow-lg">
 				<div className="w-full">
 					<div className="flex items-center h-20 w-full">
-						<div className="flex items-center  mx-20  justify-between w-full">
-							<div className="flex justify-center items-center flex-shrink-0 ">
-								<div>
-									<Image src="/logo.png" width={100} height={100} />
+						<div className="flex items-center  mx-10 md:mx-10  justify-between w-full">
+							<div className="justify-center items-center flex-shrink-0">
+								<div className="">
+									<Image src="/logo.png" width={100} height={100}/>
 								</div>
 							</div>
 							<div className="hidden md:block">

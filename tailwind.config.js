@@ -24,6 +24,7 @@ module.exports = {
         gayathri: ["Gayathri", "sans-serif"],
         dancingscript: ["Dancing Script", "Cursive"],
         italianno: ["Italianno", "Cursive"],
+        clarityFont1: ["Zapfino Extra LT Pro", "sans-serif"],
       }
     },
   },
