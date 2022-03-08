@@ -2,6 +2,7 @@ import Head from "next/head";
 import HeroSection from "../components/herosection";
 import Navbar from "../components/navigationbar";
 import Aboutsection from "../components/aboutsection"
+import Footer from "../components/footer"
 
 export default function Home() {
 	return (
@@ -14,6 +15,7 @@ export default function Home() {
 			<Navbar/>
 			<HeroSection />
 			<Aboutsection />
+			<Footer />
 		</div>
 	);
 }
