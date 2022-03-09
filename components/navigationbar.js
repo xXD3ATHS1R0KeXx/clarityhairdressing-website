@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
-import { Link } from "react-scroll";
+import Link from "next/link"
 import Image from 'next/image'
 
 
@@ -19,45 +19,18 @@ export default function Navbar() {
 							</div>
 							<div className="hidden md:block">
 								<div className="ml-10 flex items-baseline space-x-4 font-gayathri font-bold">
-								<Link
-										activeClass="about"
-										to="about"
-										smooth={true}
-										offset={50}
-										duration={500}
-										className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"
-									>
-										About
+									<Link href="/">
+										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl">Home</a>
 									</Link>
-									<Link
-										activeClass="services"
-										to="services"
-										smooth={true}
-										offset={50}
-										duration={500}
-										className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"
-									>
-										Services
+									<Link href="">
+										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"> Services </a>
 									</Link>
-                                    <Link
-										activeClass="pricing"
-										to="pricing"
-										smooth={true}
-										offset={50}
-										duration={500}
-										className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"
-									>
-										Pricing
+									<Link href="pricing">
+										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"> Pricing </a>
 									</Link>
-									<Link
-										activeClass="contact"
-										to="contact"
-										smooth={true}
-										offset={50}
-										duration={500}
-										className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"
-									>
-										Contact Us
+									
+									<Link href="">
+										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"> Contact Us </a>
 									</Link>
 								</div>
 							</div>
@@ -133,8 +106,6 @@ export default function Navbar() {
 									About us
 								</Link>
 								<Link
-									href="/service"
-									activeClass="services"
 									to="services"
 									smooth={true}
 									offset={50}
@@ -146,7 +117,7 @@ export default function Navbar() {
 								<Link
 									href="/pricing"
 									activeClass="pricing"
-									to="pricing"
+									to="/pricing"
 									smooth={true}
 									offset={50}
 									duration={500}
