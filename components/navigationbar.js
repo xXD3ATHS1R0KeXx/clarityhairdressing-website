@@ -94,47 +94,18 @@ export default function Navbar() {
 					{(ref) => (
 						<div className="md:hidden" id="mobile-menu">
 							<div ref={ref}className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3 font-gayathri">
-								<Link
-									href="/about"
-									activeClass="about"
-									to="about"
-									smooth={true}
-									offset={50}
-									duration={500}
-									className="cursor-pointer text-black block px-3 py-2 rounded-md text-base font-medium"
-								>
-									About us
+								<Link href="/">
+									<a className="cursor-pointer text-black block px-3 py-2 rounded-md text-base font-medium">Home</a>
 								</Link>
-								<Link
-									to="services"
-									smooth={true}
-									offset={50}
-									duration={500}
-									className="cursor-pointer text-black block px-3 py-2 rounded-md text-base font-medium"
-								>
-									Services
+								<Link href="">
+									<a className="cursor-pointer text-black block px-3 py-2 rounded-md text-base font-medium"> Services </a>
 								</Link>
-								<Link
-									href="/pricing"
-									activeClass="pricing"
-									to="/pricing"
-									smooth={true}
-									offset={50}
-									duration={500}
-									className="cursor-pointer  text-black block px-3 py-2 rounded-md text-base font-medium"
-								>
-									Pricing
+								<Link href="pricing">
+									<a className="cursor-pointer text-black block px-3 py-2 rounded-md text-base font-medium"> Pricing </a>
 								</Link>
-								<Link
-									href="/contact"
-									activeClass="contact"
-									to="contact"
-									smooth={true}
-									offset={50}
-									duration={500}
-									className="cursor-pointer text-black block px-3 py-2 rounded-md text-base font-medium"
-								>
-									Contact us
+									
+								<Link href="">
+									<a className="cursor-pointer text-black block px-3 py-2 rounded-md text-base font-medium"> Contact Us </a>
 								</Link>
 							</div>
 						</div>
