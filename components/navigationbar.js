@@ -22,15 +22,14 @@ export default function Navbar() {
 									<Link href="/">
 										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl">Home</a>
 									</Link>
-									<Link href="">
-										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"> Services </a>
+									<Link href="/pricing">
+										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"> Services</a>
 									</Link>
-									<Link href="pricing">
-										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"> Pricing </a>
-									</Link>
-									
-									<Link href="">
+																		<Link href="">
 										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"> Contact Us </a>
+									</Link>
+									<Link href="">
+										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl">Book now </a>
 									</Link>
 								</div>
 							</div>
@@ -97,15 +96,15 @@ export default function Navbar() {
 								<Link href="/">
 									<a className="cursor-pointer text-black block px-3 py-2 rounded-md text-base font-medium">Home</a>
 								</Link>
-								<Link href="">
+								<Link href="/pricing">
 									<a className="cursor-pointer text-black block px-3 py-2 rounded-md text-base font-medium"> Services </a>
 								</Link>
-								<Link href="pricing">
-									<a className="cursor-pointer text-black block px-3 py-2 rounded-md text-base font-medium"> Pricing </a>
+								<Link href="">
+									<a className="cursor-pointer text-black block px-3 py-2 rounded-md text-base font-medium"> Contact Us </a>
 								</Link>
 									
 								<Link href="">
-									<a className="cursor-pointer text-black block px-3 py-2 rounded-md text-base font-medium"> Contact Us </a>
+									<a className="cursor-pointer text-black block px-3 py-2 rounded-md text-base font-medium"> Book Now </a>
 								</Link>
 							</div>
 						</div>
