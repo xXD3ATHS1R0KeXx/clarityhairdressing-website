@@ -19,10 +19,60 @@ export default function pricing() {
             <div className="flex justify-center items-center pt-40 animate-fade-in-down ">
                 <h1 className="font-italianno text-4xl md:text-7xl">Services</h1>
             </div>
-                <div className="flex p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-6 lg:grid-cols-3 xl:grid-cols-3 gap-5 animate-fade-in-down text-center">
-                    <ul>
-                        <li className="col-sm-12 col-md-6 col-lg-4 block_overlay">
-                            <Image src={Scissors} width={300} height={250}/ >
+                <div>
+                    <ul className="p-10 grid grid-cols-1 md:grid-cols-6 lg:grid-cols-3 xl:grid-cols-3 gap-5 animate-fade-in-down ">
+                        <li className="block_overlay">
+                            <h1 className="text-1xl md:text-5xl font-italianno text-center "> CUTS </h1>
+                            <br></br>
+                            <p className="font-gayathri"> Ladies cut and blow dry  <span className="float-right">$80</span>  <br/>
+                                Dry cut / wash and cut <span className="float-right">$70</span> <br/>
+                                Basic trim  <span className="float-right">$50</span> <br/>
+                                Restyle cut <span className="float-right">$110</span><br/>
+                            </p>
+                        </li>
+                        <li className="block_overlay">
+                            <h1 className="text-1xl md:text-5xl font-italianno text-center"> COLOURING </h1>
+                            <br></br>
+                            <p className="font-gayathri"> Root tint  <span className="float-right">$75</span> <br/>
+                                Tint short <span className="float-right">$85 </span><br/>
+                                Tint medium <span className="float-right">$95</span><br/>
+                                Tint long <span className="float-right">$105</span><br/>
+                                Tint extra long <span className="float-right">$115</span><br/>
+                                Bleach on scalp <span className="float-right">$130</span><br/>
+                            </p>
+                        </li>
+                        <li className="block_overlay">
+                            <Image className="rounded" src={Scissors} width={300} height={250}/ >
+                            <h1> CUTTING </h1>
+                            <p> adsjfkasdads</p>
+                        </li>
+                        <li className="block_overlay">
+                            <Image className="rounded" src={Scissors} width={300} height={250}/ >
+                            <h1> CUTTING </h1>
+                            <p> adsjfkasdads</p>
+                        </li>
+                        <li className="block_overlay">
+                            <Image className="rounded" src={Scissors} width={300} height={250}/ >
+                            <h1> CUTTING </h1>
+                            <p> adsjfkasdads</p>
+                        </li>
+                        <li className="block_overlay">
+                            <Image className="rounded" src={Scissors} width={300} height={250}/ >
+                            <h1> CUTTING </h1>
+                            <p> adsjfkasdads</p>
+                        </li>
+                        <li className="block_overlay">
+                            <Image className="rounded" src={Scissors} width={300} height={250}/ >
+                            <h1> CUTTING </h1>
+                            <p> adsjfkasdads</p>
+                        </li>
+                        <li className="block_overlay">
+                            <Image className="rounded" src={Scissors} width={300} height={250}/ >
+                            <h1> CUTTING </h1>
+                            <p> adsjfkasdads</p>
+                        </li>
+                        <li className="block_overlay">
+                            <Image className="rounded" src={Scissors} width={300} height={250}/ >
                             <h1> CUTTING </h1>
                             <p> adsjfkasdads</p>
                         </li>
