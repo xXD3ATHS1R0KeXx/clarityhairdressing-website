@@ -3,9 +3,6 @@ import react from "react"
 import Image from "next/image"
 import Navbar from "../components/navigationbar"
 import Footer from "../components/footer"
-import Button from "../components/button"
-import Cards from "../components/cards"
-import Scissors from "../public/scissors.jpeg"
 
 
 export default function pricing() {
@@ -20,20 +17,22 @@ export default function pricing() {
                 <h1 className="font-italianno text-4xl md:text-7xl">Services</h1>
             </div>
                 <div>
-                    <ul className="p-10 grid grid-cols-1 md:grid-cols-6 lg:grid-cols-3 xl:grid-cols-3 gap-5 animate-fade-in-down ">
-                        <li className="block_overlay">
-                            <h1 className="text-1xl md:text-5xl font-italianno text-center "> CUTS </h1>
-                            <br></br>
-                            <p className="font-gayathri"> Ladies cut and blow dry  <span className="float-right">$80</span>  <br/>
+                    <ul className="p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 animate-fade-in-down ">
+                        <li className="block_overlay font-gayathri">
+                            <h1 className="text-1xl md:text-5xl font-gayathri text-center "> CUTS </h1>
+                            <br/>
+                            <p> 
+                                Ladies cut and blow dry  <span className="float-right">$80</span>  <br/>
                                 Dry cut / wash and cut <span className="float-right">$70</span> <br/>
                                 Basic trim  <span className="float-right">$50</span> <br/>
                                 Restyle cut <span className="float-right">$110</span><br/>
                             </p>
                         </li>
-                        <li className="block_overlay">
-                            <h1 className="text-1xl md:text-5xl font-italianno text-center"> COLOURING </h1>
-                            <br></br>
-                            <p className="font-gayathri"> Root tint  <span className="float-right">$75</span> <br/>
+                        <li className="block_overlay font-gayathri">
+                            <h1 className="text-1xl md:text-5xl font-gayathri text-center"> COLOURING </h1>
+                            <br/>
+                            <p> 
+                                Root tint  <span className="float-right">$75</span> <br/>
                                 Tint short <span className="float-right">$85 </span><br/>
                                 Tint medium <span className="float-right">$95</span><br/>
                                 Tint long <span className="float-right">$105</span><br/>
@@ -41,42 +40,99 @@ export default function pricing() {
                                 Bleach on scalp <span className="float-right">$130</span><br/>
                             </p>
                         </li>
-                        <li className="block_overlay">
-                            <Image className="rounded" src={Scissors} width={300} height={250}/ >
-                            <h1> CUTTING </h1>
-                            <p> adsjfkasdads</p>
+                        <li className="block_overlay font-gayathri">
+                            <h1 className="text-1xl md:text-5xl text-center"> FOILING </h1>
+                            <br/>
+                            <p> 
+                                1/4 Head from <span className="float-right">$85</span><br/>
+                                1/2 Head short <span className="float-right">$95</span><br/>
+                                1/2 Head medium <span className="float-right">$105</span><br/>
+                                V2 Head long <span className="float-right">$115</span><br/>
+                                Full Head short <span className="float-right">$150</span><br/>
+                                Full Head medium <span className="float-right">$160</span><br/>
+                                Full Head long <span className="float-right">$170</span><br/>
+                                Extra bleach/foils <span className="float-right">$50</span><br/>
+                                Toner <span className="float-right">$50</span><br/>
+                                Zone tone <span className="float-right">$80</span><br/>
+                                Treatment <span className="float-right">$25</span><br/>
+                                Bonding treatment <span className="float-right">$40</span><br/>
+                            </p>
                         </li>
-                        <li className="block_overlay">
-                            <Image className="rounded" src={Scissors} width={300} height={250}/ >
-                            <h1> CUTTING </h1>
-                            <p> adsjfkasdads</p>
-                        </li>
-                        <li className="block_overlay">
-                            <Image className="rounded" src={Scissors} width={300} height={250}/ >
-                            <h1> CUTTING </h1>
-                            <p> adsjfkasdads</p>
-                        </li>
-                        <li className="block_overlay">
-                            <Image className="rounded" src={Scissors} width={300} height={250}/ >
-                            <h1> CUTTING </h1>
-                            <p> adsjfkasdads</p>
-                        </li>
-                        <li className="block_overlay">
-                            <Image className="rounded" src={Scissors} width={300} height={250}/ >
-                            <h1> CUTTING </h1>
-                            <p> adsjfkasdads</p>
-                        </li>
-                        <li className="block_overlay">
-                            <Image className="rounded" src={Scissors} width={300} height={250}/ >
-                            <h1> CUTTING </h1>
-                            <p> adsjfkasdads</p>
-                        </li>
-                        <li className="block_overlay">
-                            <Image className="rounded" src={Scissors} width={300} height={250}/ >
-                            <h1> CUTTING </h1>
-                            <p> adsjfkasdads</p>
+                        <li className="block_overlay font-gayathri">
+                            <h1 className="text-1xl md:text-5xl text-center"> STYLING </h1>
+                            <br/>
+                            <p>
+                                Blowdry short <span className="float-right">$55</span><br/>
+                                Blowdry medium <span className="float-right">$65</span><br/>
+                                Blowdry long <span className="float-right">$75</span><br/>
+                                Blowdry extra long <span className="float-right">$85</span><br/>
+                                Curls/waves (no wash) from <span className="float-right">$60</span><br/>
+                                Upstyle <span className="float-right">$125</span><br/>
+                                Bridal styling from <span className="float-right">$125</span><br/>
+                            </p>
                         </li>
                     </ul>
+                    <h1 className="font-italianno text-4xl md:text-7xl text-center mt-20">Weft Hair Extensions</h1>
+                    <div>
+                        <ul className="p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 animate-fade-in-down">
+                            <li className="block_overlay font-gayathri">
+                                <h1 className="text-1xl md:text-3xl font-gayathri text-center "> Full head - one colour </h1>
+                                <br/>
+                                <p> 
+                                    12" - 80g <span className="float-right">$575</span><br/>
+                                    16" - 100g <span className="float-right">$850</span><br/>
+                                    20" - 120g <span className="float-right">$975</span><br/>
+                                    24" - 140g <span className="float-right">$1160</span><br/>
+                                </p>
+                            </li>
+                            <li className="block_overlay font-gayathri">
+                                <h1 className="text-1xl md:text-3xl font-gayathri text-center"> Full head ~ multi tone</h1>
+                                <br/>
+                                <p> 
+                                    12" - 80g <span className="float-right">$625</span><br/>
+                                    16" - 100g <span className="float-right">$900</span><br/>
+                                    20" - 120g <span className="float-right">$1025</span><br/>
+                                    24" - 140g <span className="float-right">$1210</span><br/>
+                                </p>
+                            </li>
+                            <li className="block_overlay font-gayathri">
+                                <h1 className="text-1xl md:text-3xl font-gayathri text-center"> half head ~ one colour</h1>
+                                <br/>
+                                <p> 
+                                    16" - 50g <span className="float-right">$480</span><br/>
+                                    20" - 60g <span className="float-right">$550</span><br/>
+                                    24" - 70g <span className="float-right">$600</span><br/>
+                                </p>
+                            </li>
+                            <li className="block_overlay font-gayathri">
+                                <h1 className="text-1xl md:text-3xl font-gayathri text-center"> half head ~ multi tone</h1>
+                                <br/>
+                                <p> 
+                                    16" - 50g <span className="float-right">$530</span><br/>
+                                    20" - 60g <span className="float-right">$600</span><br/>
+                                    24" - 70g <span className="float-right">$650</span><br/>
+                                </p>
+                            </li>
+                            <li className="block_overlay font-gayathri">
+                                <h1 className="text-1xl md:text-3xl font-gayathri text-center"> Move Ups</h1>
+                                <br/>
+                                <p> 
+                                    1 row <span className="float-right">$60</span><br/>
+                                    2 rows <span className="float-right">$110</span><br/>
+                                    3 rows <span className="float-right">$160</span><br/>
+                                    4 rows <span className="float-right">$210</span><br/>
+                                </p>
+                            </li>
+                            <li className="block_overlay font-gayathri">
+                                <h1 className="text-1xl md:text-3xl font-gayathri text-center"> Other services</h1>
+                                <br/>
+                                <p> 
+                                    Colour extensions <span className="float-right">$100</span><br/>
+                                    Toning extensions <span className="float-right">$50</span><br/>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <Footer />
         </div>
