@@ -1,12 +1,12 @@
 import React from "react"
 import Head from "next/head"
+import Instagram from "instagram-web-api"
 import NavBar from "../components/navigationbar"
 import Footer from "../components/footer"
+import InstaFeed from "../components/instafeed"
 
 
-
-
-export default function gallery(){
+export default function gallery({instagramPosts}){
     return(
         <div>
             <Head>
@@ -15,21 +15,35 @@ export default function gallery(){
 				<link rel="icon" href="/pro.ico" />
             </Head>
             <NavBar/>
-            
-        
-        
-        
-
-
-
-
-        
-        
-        
-        
-        
-        
+            <div className="flex justify-center items-center text-center pt-40 sm:pt-10 z-0 animate-fade-in-down">
+                <InstaFeed instagramPosts={instagramPosts}/>
+            </div>
         
         </div>
     )
 }
+
+export async function getStaticProps(context) {
+    const client = new Instagram({
+      username: process.env.IG_USERNAME,
+      password: process.env.IG_PASSWORD,
+    })
+    let posts = []
+    try {
+      await client.login()
+      const instagram = await client.getPhotosByUsername({username: process.env.IG_USERNAME,})
+      if (instagram["user"]["edge_owner_to_timeline_media"]["count"] > 0) {
+        posts = instagram["user"]["edge_owner_to_timeline_media"]["edges"]
+      }
+    } catch (err) {
+      console.log(
+        "Something went wrong while fetching content from Instagram",
+        err
+      )
+    }
+    return {
+      props: {
+        instagramPosts: posts,
+      },
+    }
+  }
