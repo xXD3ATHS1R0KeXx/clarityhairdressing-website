@@ -16,58 +16,19 @@ export default function footer(){
 				</div>
 				<div className="p-5">
 					<ul>
-						<p className="text-gray-800 font-bold text-2xl pb-4">Product</p>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Stocks
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Futures & Options
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Mutual Funds
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Fixed deposits
+						<p className="text-white font-gayathri font-bold text-2xl pb-4">Contact</p>
+						<li className='font-gayathr text-white'>
+							Address: 239 Brighton Rd, Somerton Park SA 5044 <br/>
+							Phone: 0410147583 <br/>
+							Email: test@gmail.com
 						</li>
 					</ul>
 				</div>
 				<div className="p-5">
 					<ul>
-						<p className="text-gray-800 font-bold text-2xl pb-4">Company</p>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							About
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Products
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Pricing
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Careers
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Press & Media
-						</li>
-					</ul>
-				</div>
-				<div className="p-5">
-					<ul>
-						<p className="text-gray-800 font-bold text-2xl pb-4">Support</p>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Contact
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Support Portals
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							List Of Charges
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Downloads & Resources
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Videos
+						<p className="text-white font-gayathri font-bold text-2xl pb-4">Opening Times</p>
+						<li className="text-white text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+							
 						</li>
 					</ul>
 				</div>
