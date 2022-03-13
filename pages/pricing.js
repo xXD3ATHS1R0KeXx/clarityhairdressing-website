@@ -79,38 +79,38 @@ export default function pricing() {
                                 <h1 className="text-1xl md:text-3xl font-gayathri text-center "> Full head - one colour </h1>
                                 <br/>
                                 <p> 
-                                    12" - 80g <span className="float-right">$575</span><br/>
-                                    16" - 100g <span className="float-right">$850</span><br/>
-                                    20" - 120g <span className="float-right">$975</span><br/>
-                                    24" - 140g <span className="float-right">$1160</span><br/>
+                                    12 - 80g <span className="float-right">$575</span><br/>
+                                    16 - 100g <span className="float-right">$850</span><br/>
+                                    20 - 120g <span className="float-right">$975</span><br/>
+                                    24 - 140g <span className="float-right">$1160</span><br/>
                                 </p>
                             </li>
                             <li className="block_overlay font-gayathri">
                                 <h1 className="text-1xl md:text-3xl font-gayathri text-center"> Full head ~ multi tone</h1>
                                 <br/>
                                 <p> 
-                                    12" - 80g <span className="float-right">$625</span><br/>
-                                    16" - 100g <span className="float-right">$900</span><br/>
-                                    20" - 120g <span className="float-right">$1025</span><br/>
-                                    24" - 140g <span className="float-right">$1210</span><br/>
+                                    12 - 80g <span className="float-right">$625</span><br/>
+                                    16 - 100g <span className="float-right">$900</span><br/>
+                                    20 - 120g <span className="float-right">$1025</span><br/>
+                                    24 - 140g <span className="float-right">$1210</span><br/>
                                 </p>
                             </li>
                             <li className="block_overlay font-gayathri">
                                 <h1 className="text-1xl md:text-3xl font-gayathri text-center"> half head ~ one colour</h1>
                                 <br/>
                                 <p> 
-                                    16" - 50g <span className="float-right">$480</span><br/>
-                                    20" - 60g <span className="float-right">$550</span><br/>
-                                    24" - 70g <span className="float-right">$600</span><br/>
+                                    16 - 50g <span className="float-right">$480</span><br/>
+                                    20 - 60g <span className="float-right">$550</span><br/>
+                                    24 - 70g <span className="float-right">$600</span><br/>
                                 </p>
                             </li>
                             <li className="block_overlay font-gayathri">
                                 <h1 className="text-1xl md:text-3xl font-gayathri text-center"> half head ~ multi tone</h1>
                                 <br/>
                                 <p> 
-                                    16" - 50g <span className="float-right">$530</span><br/>
-                                    20" - 60g <span className="float-right">$600</span><br/>
-                                    24" - 70g <span className="float-right">$650</span><br/>
+                                    16 - 50g <span className="float-right">$530</span><br/>
+                                    20 - 60g <span className="float-right">$600</span><br/>
+                                    24 - 70g <span className="float-right">$650</span><br/>
                                 </p>
                             </li>
                             <li className="block_overlay font-gayathri">
