@@ -26,7 +26,7 @@ export default function Navbar() {
 										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"> Services</a>
 									</Link>
 									<Link href="/otherbusinesses">
-										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"> Other Businesses </a>
+										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"> Clarity Beauty Lounge </a>
 									</Link>
 									<Link href="">
 										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"> Gallery </a>

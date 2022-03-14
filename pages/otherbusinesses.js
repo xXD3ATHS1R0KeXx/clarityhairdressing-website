@@ -2,7 +2,7 @@ import React from "react"
 import Head from "next/head"
 import Image from "next/image"
 import Navbar from "../components/navigationbar"
-import footer from "../components/footer"
+import Footer from "../components/footer"
 
 export default function otherbusinesses(){
     return(
@@ -13,41 +13,71 @@ export default function otherbusinesses(){
 			</Head>
             <Navbar/>
             <div className="flex justify-center items-center pt-32 animate-fade-in-down">
-                <h1 className="font-italianno text-4xl md:text-7xl">Other Businesses</h1>
+                <h1 className="font-italianno text-4xl md:text-7xl">Clarity Beauty Lounge</h1>
             </div>
             <div className="justify-center items-center animate-fade-in-down align-center p-7">
-                <ul className="p-10 grid grid-cols-1  gap-5 animate-fade-in-down ">
-                    <li className="block_overlay font-gayathri">
-                        <h1 className="text-1xl md:text-5xl font-italianno text-center "> Let's Get Lashed </h1>
-                        <br/>
-                        <p className="text-justify"> 
-                            Khiara is the face behind Let’s Get Lashed.  She has owned her own lash and brow business for 5 years and still has the same passion as day 1. She specialises in all lash extension services including classics, hybrids and volumes, you name it she can do it. She also has you covered for your lash lifts and tints.
-                            Stand out with beautiful brows Khiara is also skilled in brow waxing and takes pleasure in creating the perfect shape to suit you. With laminations being a hot trend she can give you the bold brows you always dreamed of and tops it of with a hybrid tint giving you the perfect definition. 
-                            To book in with Khiara click on the link in her Instagram bio @letsgetlasheddd.
-                        </p>
-                    </li>
-                    <li className="block_overlay font-gayathri">
-                        <h1 className="text-1xl md:text-5xl font-italianno text-center mt-40"> You and Eye Beauty </h1>
-                        <br/>
-                        <p className="text-justify"> 
-                            With years of experience under her belt, Tiffany is well experienced and trained to help all the lovely ladies of adelaide feel the best they can in their own skin. 
-                            Passionate about health, beauty and helping all women feel beautiful, Tiffany has hand-chosen all her lash products personally, and uses only the highest quality products possible. 
-                            Having run her own successful lash business for years, Tiffany knows the importance of offering after-hour services - which she is happy to offer to all you gorgeous girls.
-                            We can’t wait for you all to meet Tiffany; and to book in for your next set of gorgeous lash extensions with one of the best in the industry! She will be working at Clarity on Thursdays and Saturdays and is now taking booking for March the 3rd and the 5th. 
-                            Head over to her page @youandeye.beauty_ for a follow and and have a look at her amazing work. To make an appointment please DM @youandeye.beauty_ .
-                        </p>
-                    </li>
-                    <li className="block_overlay font-gayathri">
-                        <h1 className="text-1xl md:text-5xl font-italianno text-center mt-40">Brows by Bec</h1>
-                        <br/>
-                        <p className="text-justify"> 
-                            Brows by Bec offers Cosmetic Tattooing services. This includes the Ombré Brow technique, Feather touch Brows (Microblading) and the Combination Brow technique. 
-                            Bec has been a Cosmetic eyebrow Tattoo specialist for almost 2.5 years now. She has a passion for all things beauty and loves transforming & enhancing brows. 
-                            Bec takes pride in ensuring each set of brows is personalised for each person’s face shape and features through every appointment. She completes this through pre drawing each set of brows and engaging with her clientele to choose the perfect colour to match their brow hairs and facial features. Whether a natural enhancement or a bold brow is your preference, Bec can create a fabulous semi permanent set of brows! All bookings can be made via Instagram @brows_bybec.
-                        </p>
-                    </li>
-                </ul>
+                <p className="text-justify md:px-10 font-gayathri">
+                The Clarity beauty lounge has been designed to take you to another place. It’s peaceful atmosphere and visionary design will have you relaxed within minutes of arriving. The beautiful large windows open up the space and have you feeling apart of the big wide world. The stunning glow of the natural sunlight instantly has you at the gateway to heaven. The Clarity beauty lounge is comprised of Adelaide beauty businesses that all take beauty to the next level. Each business has been hand picked by James to ensure the highest quality of work is being produced. These businesses not only take the upmost pride in their profession but also have a passion for ensuring all of their clients are looked after with heartfelt care. Please take a moment to become familiar with these local Adelaide businesses that have so lovingly been selected to have residency at the Clarity beauty lounge.
+                </p>
             </div>
-        </div>
+                <div class=" rounded-xl md:px-24 flex flex-col justify-center items-center animate-fade-in-down">
+                    <div class="md:flex">
+                        <div className="md:w-[99rem] relative">
+                            <Image src="/../public/Logos/letsgetlashed.jpg" layout="fill" className="rounded"/>
+                        </div>
+                        <div class="p-8">
+                            <h3 class="font-italianno text-4xl md:text-6xl mb-5">Let's Get Lashed</h3>
+                            <p className="text-justify">
+                                Khiara is the face behind Let’s Get Lashed.  She has owned her own lash and brow business for 5 years and still has the same passion as day 1. She specialises in all lash extension services including classics, hybrids and volumes, you name it she can do it. She also has you covered for your lash lifts and tints.
+                                Stand out with beautiful brows ~ Khiara is also skilled in brow waxing and takes pleasure in creating the perfect shape to suit you. With laminations being a hot trend she can give you the bold brows you always dreamed of and tops it of with a hybrid tint giving you the perfect definition. To book in with Khiara click on the link in her Instagram bio @letsgetlasheddd.  
+                            </p>
+                            <button class="mt-5 rounded-lg px-4 py-2 bg-clarityGold text-blue-50 shadow hover:shadow-xl duration-300">
+                                Instagram
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class=" flex flex-col justify-center items-center animate-fade-in-down md:mt-32 md:px-24">
+                    <div class="md:flex">
+                        <div className="md:w-[96.9rem] relative">
+                            <Image src="/../public/Logos/youandeye.jpg" layout="fill" className="rounded"/>
+                        </div>
+                        <div class="p-8">
+                            <h3 class="font-italianno text-4xl md:text-6xl mb-5">You and Eye Beauty</h3>
+                            <p className="text-justify">
+                                With years of experience under her belt, Tiffany is well experienced and trained to help all the lovely ladies of adelaide feel the best they can in their own skin. 
+                                Passionate about health, beauty and helping all women feel beautiful, Tiffany has hand-chosen all her lash products personally, and uses only the highest quality products possible. 
+                                Having run her own successful lash business for years, Tiffany knows the importance of offering after-hour services - which she is happy to offer to all you gorgeous girls.
+                                We can’t wait for you all to meet Tiffany; and to book in for your next set of gorgeous lash extensions with one of the best in the industry! She will be working at Clarity on Thursdays and Saturdays and is now taking booking for March the 3rd and the 5th. 
+                                Head over to her page @youandeye.beauty_ for a follow and and have a look at her amazing work. To make an appointment please DM @youandeye.beauty_ .
+                            </p>
+                            <button class="mt-5 rounded-lg px-4 py-2 bg-clarityGold text-blue-50 shadow hover:shadow-xl duration-300">
+                                Instagram
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class=" flex flex-col justify-center items-center animate-fade-in-down  md:mt-32 md:px-24">
+                    <div class="md:flex">
+                        <div className="md:w-[96.9rem] relative">
+                            <Image src="/../public/Logos/youandeye.jpg" layout="fill" className="rounded"/>
+                        </div>
+                        <div class="p-8">
+                            <h3 class="font-italianno text-4xl md:text-6xl mb-5">You and Eye Beauty</h3>
+                            <p className="text-justify">
+                                With years of experience under her belt, Tiffany is well experienced and trained to help all the lovely ladies of adelaide feel the best they can in their own skin. 
+                                Passionate about health, beauty and helping all women feel beautiful, Tiffany has hand-chosen all her lash products personally, and uses only the highest quality products possible. 
+                                Having run her own successful lash business for years, Tiffany knows the importance of offering after-hour services - which she is happy to offer to all you gorgeous girls.
+                                We can’t wait for you all to meet Tiffany; and to book in for your next set of gorgeous lash extensions with one of the best in the industry! She will be working at Clarity on Thursdays and Saturdays and is now taking booking for March the 3rd and the 5th. 
+                                Head over to her page @youandeye.beauty_ for a follow and and have a look at her amazing work. To make an appointment please DM @youandeye.beauty_ .
+                            </p>
+                            <button class="mt-5 rounded-lg px-4 py-2 bg-clarityGold text-blue-50 shadow hover:shadow-xl duration-300">
+                                Instagram
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <Footer/>
+            </div>
     )
 }
