@@ -25,7 +25,10 @@ export default function Navbar() {
 									<Link href="/pricing">
 										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"> Services</a>
 									</Link>
-										<Link href="">
+									<Link href="/otherbusinesses">
+										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"> Other Businesses </a>
+									</Link>
+									<Link href="">
 										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"> Gallery </a>
 									</Link>
 									<Link href="">
@@ -99,6 +102,9 @@ export default function Navbar() {
 								</Link>
 								<Link href="/pricing">
 									<a className="cursor-pointer text-white block px-3 py-2 rounded-md text-base font-medium"> Services </a>
+								</Link>
+								<Link href="/otherbusinesses">
+										<a className="cursor-pointer text-white block px-3 py-2 rounded-md text-base font-medium"> Other Businesses </a>
 								</Link>
 								<Link href="">
 									<a className="cursor-pointer text-white block px-3 py-2 rounded-md text-base font-medium"> Gallery</a>
