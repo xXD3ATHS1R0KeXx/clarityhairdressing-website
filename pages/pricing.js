@@ -1,6 +1,5 @@
 import Head from "next/head"
 import react from "react"
-import Image from "next/image"
 import Navbar from "../components/navigationbar"
 import Footer from "../components/footer"
 
@@ -17,7 +16,7 @@ export default function pricing() {
                 <h1 className="font-italianno text-4xl md:text-7xl">Services</h1>
             </div>
                 <div>
-                    <ul className="p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 animate-fade-in-down ">
+                    <ul className="p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 animate-fade-in-down ">
                         <li className="block_overlay font-gayathri">
                             <h1 className="text-1xl md:text-5xl font-gayathri text-center "> CUTS </h1>
                             <br/>
