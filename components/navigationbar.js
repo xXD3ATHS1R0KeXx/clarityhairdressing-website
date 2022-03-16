@@ -17,28 +17,28 @@ export default function Navbar() {
 								<Image src="/logo.png" width={100} height={100} priority/>
 							</div>
 							{/* Desktop navbar code */}
-							<div className="hidden md:block">
+							<div className="hidden lg:block">
 								<div className="ml-10 flex items-baseline space-x-4 font-gayathri font-bold">
 									<Link href="/">
-										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl">Home</a>
+										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-1 py-2 rounded-md text-base lg:px-3 lg:text-2xl">Home</a>
 									</Link>
 									<Link href="/pricing">
-										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"> Services</a>
+										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-1 py-2 rounded-md text-base lg:px-3 lg:text-2xl">Services</a>
 									</Link>
 									<Link href="/otherbusinesses">
-										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"> Clarity Beauty Lounge </a>
+										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-1 py-2 rounded-md text-base lg:px-3 lg:text-2xl">Clarity Businesses Lounge</a>
 									</Link>
-									<Link href="">
-										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl"> Gallery </a>
+									<Link href="/">
+										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-1 py-2 rounded-md text-base lg:px-3 lg:text-2xl">Gallery</a>
 									</Link>
-									<Link href="">
-										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-3 py-2 rounded-md text-2xl">Book now </a>
+									<Link href="/">
+										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-1 py-2 rounded-md text-base lg:px-3 lg:text-3xl">Book Now</a>
 									</Link>
 								</div>
 							</div>
 						</div>
 						{/* code for the mobile version of navbar */}
-						<div className="mr-10 flex md:hidden ">
+						<div className="mr-10 flex lg:hidden ">
 							<button
 								onClick={() => setIsOpen(!isOpen)}
 								type="button"
@@ -95,7 +95,7 @@ export default function Navbar() {
 					leaveTo="opacity-0 scale-95"
 				>
 					{(ref) => (
-						<div className="md:hidden" id="mobile-menu">
+						<div className="lg:hidden" id="mobile-menu">
 							<div ref={ref}className="bg-clarityGold px-2 pt-2 pb-3 space-y-1 sm:px-3 font-gayathri">
 								<Link href="/">
 									<a className="cursor-pointer text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
