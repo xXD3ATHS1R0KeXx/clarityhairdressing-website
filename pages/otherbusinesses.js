@@ -1,8 +1,18 @@
 import React from "react"
 import Head from "next/head"
 import Image from "next/image"
+import ImageCarousel from "../components/ImageCarousel"
 import Navbar from "../components/navigationbar"
 import Footer from "../components/footer"
+
+
+
+let testImages = [
+    {src: "/../public/Logos/browsbybec.jpg"},
+    {src: "/../public/Logos/letsgetlashed.jpg"},
+    {src: "/../public/Logos/youandeye.jpg"}
+]
+
 
 export default function otherbusinesses(){
     return(
@@ -74,6 +84,7 @@ export default function otherbusinesses(){
                             <button class="mt-5 rounded-lg px-4 py-2 bg-clarityGold text-blue-50 shadow hover:shadow-xl duration-300">
                                 Instagram
                             </button>
+                            <ImageCarousel image={testImages} />
                         </div>
                     </div>
                 </div>
