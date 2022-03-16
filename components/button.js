@@ -11,8 +11,8 @@ const Button = tw.button`
     rounded
 `
 
-export default function button({ prop }){
+export default function button({ children }){
     return(
-        <Button>{ prop }</Button>
+        <Button>{ children }</Button>
     )
 }

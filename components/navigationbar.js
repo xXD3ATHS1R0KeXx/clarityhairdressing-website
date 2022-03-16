@@ -18,7 +18,7 @@ export default function Navbar() {
 							</div>
 							{/* Desktop navbar code */}
 							<div className="hidden lg:block">
-								<div className="ml-10 flex items-baseline space-x-4 font-gayathri font-bold">
+								<div className="ml-10 flex items-baseline space-x-2 font-gayathri font-bold">
 									<Link href="/">
 										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-1 py-2 rounded-md text-base lg:px-3 lg:text-2xl">Home</a>
 									</Link>
@@ -26,13 +26,13 @@ export default function Navbar() {
 										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-1 py-2 rounded-md text-base lg:px-3 lg:text-2xl">Services</a>
 									</Link>
 									<Link href="/otherbusinesses">
-										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-1 py-2 rounded-md text-base lg:px-3 lg:text-2xl">Clarity Businesses Lounge</a>
+										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-1 py-2 rounded-md text-base lg:px-3 lg:text-2xl">Clarity Beauty Lounge</a>
 									</Link>
 									<Link href="/">
 										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-1 py-2 rounded-md text-base lg:px-3 lg:text-2xl">Gallery</a>
 									</Link>
 									<Link href="/">
-										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-1 py-2 rounded-md text-base lg:px-3 lg:text-3xl">Book Now</a>
+										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-1 py-2 rounded-md text-base lg:px-3 lg:text-2xl">Book Now</a>
 									</Link>
 								</div>
 							</div>
