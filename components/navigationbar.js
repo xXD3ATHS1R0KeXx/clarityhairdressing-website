@@ -104,7 +104,7 @@ export default function Navbar() {
 									<a className="cursor-pointer text-white block px-3 py-2 rounded-md text-base font-medium"> Services </a>
 								</Link>
 								<Link href="/otherbusinesses">
-										<a className="cursor-pointer text-white block px-3 py-2 rounded-md text-base font-medium"> Other Businesses </a>
+										<a className="cursor-pointer text-white block px-3 py-2 rounded-md text-base font-medium"> Clarity Beauty Lounge </a>
 								</Link>
 								<Link href="">
 									<a className="cursor-pointer text-white block px-3 py-2 rounded-md text-base font-medium"> Gallery</a>

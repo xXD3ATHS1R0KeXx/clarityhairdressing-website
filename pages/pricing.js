@@ -13,12 +13,12 @@ export default function pricing() {
 			</Head>
             <Navbar />
             <div className="flex justify-center items-center pt-32 animate-fade-in-down">
-                <h1 className="font-italianno text-4xl md:text-7xl">Services</h1>
+                <h2 className="font-italianno text-4xl md:text-6xl">Services</h2>
             </div>
                 <div>
                     <ul className="p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 animate-fade-in-down ">
                         <li className="block_overlay font-gayathri">
-                            <h1 className="text-1xl md:text-5xl font-gayathri text-center "> CUTS </h1>
+                            <h3 className="text-1xl md:text-4xl font-gayathri text-center "> CUTS </h3>
                             <br/>
                             <p> 
                                 Ladies cut and blow dry  <span className="float-right">$80</span>  <br/>
@@ -28,7 +28,7 @@ export default function pricing() {
                             </p>
                         </li>
                         <li className="block_overlay font-gayathri">
-                            <h1 className="text-1xl md:text-5xl font-gayathri text-center"> COLOURING </h1>
+                            <h3 className="text-1xl md:text-4xl font-gayathri text-center"> COLOURING </h3>
                             <br/>
                             <p> 
                                 Root tint  <span className="float-right">$75</span> <br/>
@@ -40,7 +40,7 @@ export default function pricing() {
                             </p>
                         </li>
                         <li className="block_overlay font-gayathri">
-                            <h1 className="text-1xl md:text-5xl text-center"> FOILING </h1>
+                            <h3 className="text-1xl md:text-4xl text-center"> FOILING </h3>
                             <br/>
                             <p> 
                                 1/4 Head from <span className="float-right">$85</span><br/>
@@ -58,7 +58,7 @@ export default function pricing() {
                             </p>
                         </li>
                         <li className="block_overlay font-gayathri">
-                            <h1 className="text-1xl md:text-5xl text-center"> STYLING </h1>
+                            <h3 className="text-1xl md:text-4xl text-center"> STYLING </h3>
                             <br/>
                             <p>
                                 Blowdry short <span className="float-right">$55</span><br/>
@@ -71,11 +71,11 @@ export default function pricing() {
                             </p>
                         </li>
                     </ul>
-                    <h1 className="font-italianno text-4xl md:text-7xl text-center mt-20">Weft Hair Extensions</h1>
+                    <h2 className="font-italianno text-4xl md:text-7xl text-center mt-20">Weft Hair Extensions</h2>
                     <div>
                         <ul className="p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 animate-fade-in-down">
                             <li className="block_overlay font-gayathri">
-                                <h1 className="text-1xl md:text-3xl font-gayathri text-center "> Full head - one colour </h1>
+                                <h3 className="text-1xl md:text-3xl font-gayathri text-center "> Full head - one colour </h3>
                                 <br/>
                                 <p> 
                                     12 - 80g <span className="float-right">$575</span><br/>
@@ -85,7 +85,7 @@ export default function pricing() {
                                 </p>
                             </li>
                             <li className="block_overlay font-gayathri">
-                                <h1 className="text-1xl md:text-3xl font-gayathri text-center"> Full head ~ multi tone</h1>
+                                <h3 className="text-1xl md:text-3xl font-gayathri text-center"> Full head ~ multi tone</h3>
                                 <br/>
                                 <p> 
                                     12 - 80g <span className="float-right">$625</span><br/>
@@ -95,7 +95,7 @@ export default function pricing() {
                                 </p>
                             </li>
                             <li className="block_overlay font-gayathri">
-                                <h1 className="text-1xl md:text-3xl font-gayathri text-center"> half head ~ one colour</h1>
+                                <h3 className="text-1xl md:text-3xl font-gayathri text-center"> half head ~ one colour</h3>
                                 <br/>
                                 <p> 
                                     16 - 50g <span className="float-right">$480</span><br/>
@@ -104,7 +104,7 @@ export default function pricing() {
                                 </p>
                             </li>
                             <li className="block_overlay font-gayathri">
-                                <h1 className="text-1xl md:text-3xl font-gayathri text-center"> half head ~ multi tone</h1>
+                                <h3 className="text-1xl md:text-3xl font-gayathri text-center"> half head ~ multi tone</h3>
                                 <br/>
                                 <p> 
                                     16 - 50g <span className="float-right">$530</span><br/>
@@ -113,7 +113,7 @@ export default function pricing() {
                                 </p>
                             </li>
                             <li className="block_overlay font-gayathri">
-                                <h1 className="text-1xl md:text-3xl font-gayathri text-center"> Move Ups</h1>
+                                <h3 className="text-1xl md:text-3xl font-gayathri text-center"> Move Ups</h3>
                                 <br/>
                                 <p> 
                                     1 row <span className="float-right">$60</span><br/>
