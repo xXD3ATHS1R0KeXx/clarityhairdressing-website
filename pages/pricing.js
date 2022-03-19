@@ -46,7 +46,7 @@ export default function pricing() {
                                 1/4 Head from <span className="float-right">$85</span><br/>
                                 1/2 Head short <span className="float-right">$95</span><br/>
                                 1/2 Head medium <span className="float-right">$105</span><br/>
-                                V2 Head long <span className="float-right">$115</span><br/>
+                                1/2 Head long <span className="float-right">$115</span><br/>
                                 Full Head short <span className="float-right">$150</span><br/>
                                 Full Head medium <span className="float-right">$160</span><br/>
                                 Full Head long <span className="float-right">$170</span><br/>

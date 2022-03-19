@@ -1,17 +1,17 @@
 import React from "react"
 
-export default function aboutsection()
-{
-    return(
-        <div className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 animate-fade-in-down">
-            <div className="sm:text-center lg:text-left">
-                <h1 className="font-italianno text-4xl md:text-7xl">
-                    About us
-                </h1>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum sapien nulla, vitae finibus tellus porta vel. Fusce eleifend neque ac sagittis ultrices. Duis sollicitudin feugiat sapien ac congue. Nam aliquet urna ut feugiat lobortis. Vestibulum ultrices efficitur interdum. Aliquam ornare enim nec lacus tincidunt fringilla. Suspendisse potenti. Fusce sollicitudin urna diam, eget sollicitudin augue molestie a. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque magna mi, suscipit eget augue ut, tempor euismod dolor. Nam suscipit volutpat ipsum at tempor. Quisque bibendum sem et ipsum placerat vulputate vitae a eros. Nunc placerat purus scelerisque metus feugiat, vitae venenatis dolor vehicula. Etiam non aliquam lorem.
-                </p>
-            </div> 
-        </div>
+export default function aboutsection() {
+    return (
+        <section class="text-gray-600 body-font">
+            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+                <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                    <h1 class="title-font text-6xl md:text-7xl mb-4 font-italianno text-gray-900">About us</h1>
+                    <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+                </div>
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                    <img class="object-cover object-center rounded" alt="hero" src="" />
+                </div>
+            </div>
+        </section>
     )
 }
