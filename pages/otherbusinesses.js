@@ -43,6 +43,21 @@ export default function otherbusinesses() {
                         </div>
                         <div className="p-4">
                             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                            <div className="flex-shrink-0 rounded-lg  object-cover object-center sm:mb-0 mb-4">
+                                    <Image src="/../public/Logos/youandeye.jpg" width={285} height={200} />
+                                </div>
+                                <div className="flex-grow sm:pl-8">
+                                    <h2 className="title-font font-medium text-4xl text-gray-900 font-italianno">You and Eye Beauty</h2>
+                                    <h3 className="mb-3 font-gayathri">Tiffany - @youandeye.beauty_</h3>
+                                    <p className="mb-4 text-justify font-gayathri">With years of experience under her belt, Tiffany is well experienced and trained to help all the lovely ladies of adelaide feel the best they can in their own skin.
+                                        Passionate about health, beauty and helping all women feel beautiful, Tiffany has hand-chosen all her lash products personally, and uses only the highest quality products possible.
+                                        Having run her own successful lash business for years, Tiffany knows the importance of offering after-hour services - which she is happy to offer to all you gorgeous girls.
+                                        We can’t wait for you all to meet Tiffany; and to book in for your next set of gorgeous lash extensions with one of the best in the industry!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="p-4">
+                            <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                                 <div className="flex-shrink-0 rounded-lg  object-cover object-center sm:mb-0 mb-4">
                                     <Image src="/../public/Logos/browsbybec.jpg" width={285} height={200} />
                                 </div>
@@ -53,22 +68,6 @@ export default function otherbusinesses() {
                                         Bec has been a Cosmetic eyebrow Tattoo specialist for almost 2.5 years now. She has a passion for all things beauty and loves transforming & enhancing brows. Bec takes pride in ensuring each set of brows
                                         is personalised for each person’s face shape and features through every appointment. She completes this through pre drawing each set of brows and engaging with her clientele to choose the perfect colour to match
                                         their brow hairs and facial features. Whether a natural enhancement or a bold brow is your preference, Bec can create a fabulous semi permanent set of brows! All bookings can be made via Instagram</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="p-4">
-                            <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                            <div className="flex-shrink-0 rounded-lg  object-cover object-center sm:mb-0 mb-4">
-                                    <Image src="/../public/Logos/youandeye.jpg" width={285} height={200} />
-                                </div>
-                                <div className="flex-grow sm:pl-8">
-                                    <h2 className="title-font font-medium text-4xl text-gray-900 font-italianno">You and Eye Beauty</h2>
-                                    <h3 className="mb-3 font-gayathri">Tiffany - @youandeye.beauty_</h3>
-                                    <p className="mb-4 text-justify font-gayathri">With years of experience under her belt, Tiffany is well experienced and trained to help all the lovely ladies of adelaide feel the best they can in their own skin.
-                                        Passionate about health, beauty and helping all women feel beautiful, Tiffany has hand-chosen all her lash products personally, and uses only the highest quality products possible.
-                                        Having run her own successful lash business for years, Tiffany knows the importance of offering after-hour services - which she is happy to offer to all you gorgeous girls.
-                                        We can’t wait for you all to meet Tiffany; and to book in for your next set of gorgeous lash extensions with one of the best in the industry! She will be working at Clarity on Thursdays and Saturdays and is now taking booking for March the 3rd and the 5th.
-                                        Head over to her page @youandeye.beauty_ for a follow and and have a look at her amazing work. To make an appointment please DM</p>
                                 </div>
                             </div>
                         </div>
