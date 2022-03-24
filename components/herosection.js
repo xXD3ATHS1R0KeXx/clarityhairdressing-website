@@ -21,9 +21,7 @@ export default function HeroSection() {
             Praesent aliquet molestie augue nec laoreet. Cras at dui ac neque eleifend condimentum. 
             </p>
           </div>
-          <Link href="www.google.com" passHref>
-            <Button>Book now</Button>
-          </Link>
+          <Button src="https://google.com">Book now</Button>
       </div>
     </div>
 	);

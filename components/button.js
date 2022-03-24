@@ -1,6 +1,6 @@
 import React from "react"
 import tw from "tailwind-styled-components"
-import Link from "next/link"
+import {useRouter} from "next/router"
 
 const Button = tw.a`
     bg-clarityGold
@@ -12,10 +12,8 @@ const Button = tw.a`
     rounded
 `
 
-export default function button({ children }){
+export default function button({ children, src }){
     return(
-        <Link href="www.google.com">
-            <Button>{ children }</Button>
-        </Link>
+        <Button href={src}>{ children }</Button>
     )
 }
