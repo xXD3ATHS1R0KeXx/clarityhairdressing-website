@@ -2,6 +2,7 @@ import React from "react"
 import Image from 'next/image'
 import wings from "../public/Wings.jpeg"
 import Button from "./button"
+import Link from "next/link"
 
 export default function HeroSection() {
 	return (
@@ -20,7 +21,9 @@ export default function HeroSection() {
             Praesent aliquet molestie augue nec laoreet. Cras at dui ac neque eleifend condimentum. 
             </p>
           </div>
-          <Button>Book now</Button>
+          <Link href="www.google.com" passHref>
+            <Button>Book now</Button>
+          </Link>
       </div>
     </div>
 	);

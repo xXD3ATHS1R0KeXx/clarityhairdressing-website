@@ -1,7 +1,8 @@
 import React from "react"
 import tw from "tailwind-styled-components"
+import Link from "next/link"
 
-const Button = tw.button`
+const Button = tw.a`
     bg-clarityGold
     hover:bg-buttonGold
     text-white 
@@ -13,6 +14,8 @@ const Button = tw.button`
 
 export default function button({ children }){
     return(
-        <Button>{ children }</Button>
+        <Link href="www.google.com">
+            <Button>{ children }</Button>
+        </Link>
     )
 }
