@@ -16,12 +16,14 @@ export default function HeroSection() {
             By James Henderson Hairdressing
           </h2>
           <div>
-            <p className="mt-3  text-justifty font-gayathri text-gray-500 md:mt-5 md:text-lg md:max-w-xl md:mx-auto md:mt-5 md:text-xl lg:mx-0 animate-fade-in-down">
+            <p className="mt-3 px-5 text-justifty font-gayathri text-gray-500 md:mt-5 md:text-lg md:max-w-xl md:mx-auto md:mt-5 md:text-xl lg:mx-0 animate-fade-in-down">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat tempus sem sit amet sodales. 
             Praesent aliquet molestie augue nec laoreet. Cras at dui ac neque eleifend condimentum. 
             </p>
           </div>
-          <Button src="https://google.com">Book now</Button>
+          <div className="mt-7">
+            <Button src="https://google.com">Book now</Button>
+          </div>
       </div>
     </div>
 	);
