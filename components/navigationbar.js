@@ -28,9 +28,11 @@ export default function Navbar() {
 									<Link href="/otherbusinesses">
 										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-1 py-2 rounded-md text-base lg:px-3 lg:text-2xl">Clarity Beauty Lounge</a>
 									</Link>
+									{/* Hidden until I can fix
 									<Link href="/">
 										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-1 py-2 rounded-md text-base lg:px-3 lg:text-2xl">Gallery</a>
 									</Link>
+									*/}
 									<Link href="/">
 										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-1 py-2 rounded-md text-base lg:px-3 lg:text-2xl">Book Now</a>
 									</Link>
@@ -106,10 +108,10 @@ export default function Navbar() {
 								<Link href="/otherbusinesses">
 										<a className="cursor-pointer text-white block px-3 py-2 rounded-md text-base font-medium"> Clarity Beauty Lounge </a>
 								</Link>
+								{ /* Hidden until I can fix
 								<Link href="">
 									<a className="cursor-pointer text-white block px-3 py-2 rounded-md text-base font-medium"> Gallery</a>
-								</Link>
-									
+								</Link>	*/}
 								<Link href="">
 									<a className="cursor-pointer text-white block px-3 py-2 rounded-md text-base font-medium"> Book Now </a>
 								</Link>
