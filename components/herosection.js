@@ -2,7 +2,6 @@ import React from "react"
 import Image from 'next/image'
 import wings from "../public/Wings.jpeg"
 import Button from "./button"
-import Link from "next/link"
 
 export default function HeroSection() {
 	return (

@@ -14,7 +14,7 @@ export default function Home() {
 			</Head>
 			<Navbar/>
 			<HeroSection />
-			<Aboutsection className="animate-fade-in-down" />
+			<Aboutsection />
 			<Footer />
 		</div>
 	);

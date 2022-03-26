@@ -1,6 +1,5 @@
 import React from "react"
 import tw from "tailwind-styled-components"
-import {useRouter} from "next/router"
 
 const Button = tw.a`
     bg-clarityGold
