@@ -24,7 +24,7 @@ export default function otherbusinesses() {
             <section className="body-font animate-fade-in-down">
                 <div className="md:container px-5 py-32 mx-auto">
                     <div className="flex flex-col text-center w-full mb-20">
-                        <h1 className="lg:text-5xl text-4xl font-medium title-font mb-10 text-gray-900 tracking-widest font-italianno">Clarity Beauty Lounge</h1>
+                        <h1 className="lg:text-5xl text-4xl font-medium title-font mb-10 text-gray-900 tracking-widest font-italianno tracking-wider">Clarity Beauty Lounge</h1>
                         <p className="lg:w-4/5 mx-auto leading-relaxed text-justify text-base font-gayathri">The Clarity beauty lounge has been designed to take you to another place. It’s peaceful atmosphere and visionary design will have you relaxed within minutes of arriving. The beautiful large windows open up the space and have you feeling apart of the big wide world. The stunning glow of the natural sunlight instantly has you at the gateway to heaven. The Clarity beauty lounge is comprised of Adelaide beauty businesses that all take beauty to the next level. Each business has been hand picked by James to ensure the highest quality of work is being produced. These businesses not only take the upmost pride in their profession but also have a passion for ensuring all of their clients are looked after with heartfelt care. Please take a moment to become familiar with these local Adelaide businesses that have so lovingly been selected to have residency at the Clarity beauty lounge.</p>
                     </div>
                     <div className="flex flex-wrap -m-4 grid-cols-1">
@@ -34,7 +34,7 @@ export default function otherbusinesses() {
                                     <Image src="/Logos/letsgetlashed.jpg" width={285} height={200} />
                                 </div>
                                 <div className="flex-grow sm:pl-8">
-                                    <h2 className="title-font font-medium text-4xl text-gray-900 font-italianno">Let's Get Lashed</h2>
+                                    <h2 className="title-font font-medium text-4xl text-gray-900 font-italianno tracking-wider">Let's Get Lashed</h2>
                                     <h3 className="mb-3 font-gayathri">Khiara - @letsgetlasheddd</h3>
                                     <p className="mb-4 text-justify font-gayathri">Khiara is the face behind Let’s Get Lashed.  She has owned her own lash and brow business for 5 years and still has the same passion as day 1. She specialises in all lash extension services including classNameics, hybrids and volumes, you name it she can do it. She also has you covered for your lash lifts and tints.
                                         Stand out with beautiful brows ~ Khiara is also skilled in brow waxing and takes pleasure in creating the perfect shape to suit you. With laminations being a hot trend she can give you the bold brows you always dreamed of and tops it of with a hybrid tint giving you the perfect definition. To book in with Khiara click on the link in her Instagram bio.</p>
@@ -55,7 +55,7 @@ export default function otherbusinesses() {
                                     <Image src="/Logos/youandeye.jpg" width={285} height={200} />
                                 </div>
                                 <div className="flex-grow sm:pl-8">
-                                    <h2 className="title-font font-medium text-4xl text-gray-900 font-italianno">You and Eye Beauty</h2>
+                                    <h2 className="title-font font-medium text-4xl text-gray-900 font-italianno tracking-wider tracking-wider">You and Eye Beauty</h2>
                                     <h3 className="mb-3 font-gayathri">Tiffany - @youandeye.beauty_</h3>
                                     <p className="mb-4 text-justify font-gayathri">With years of experience under her belt, Tiffany is well experienced and trained to help all the lovely ladies of adelaide feel the best they can in their own skin.
                                         Passionate about health, beauty and helping all women feel beautiful, Tiffany has hand-chosen all her lash products personally, and uses only the highest quality products possible.

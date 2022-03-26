@@ -11,7 +11,7 @@ export default function HeroSection() {
           <h1 className=" text-gray-900 text-7xl md:text-8xl font-italianno ">
             Clarity
           </h1>
-          <h2 className=" text-gray-900 text-4xl md:text-3xl font-italianno">
+          <h2 className=" text-gray-900 text-4xl md:text-3xl font-italianno tracking-wider">
             By James Henderson Hairdressing
           </h2>
           <div>
