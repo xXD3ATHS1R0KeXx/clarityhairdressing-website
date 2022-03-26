@@ -71,7 +71,7 @@ export default function pricing() {
                             </p>
                         </li>
                     </ul>
-                    <h2 className="font-italianno text-4xl md:text-7xl text-center mt-20">Weft Hair Extensions</h2>
+                    <h2 className="font-italianno text-4xl md:text-6xl text-center mt-20">Weft Hair Extensions</h2>
                     <div>
                         <ul className="p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 animate-fade-in-down">
                             <li className="block_overlay font-gayathri">
