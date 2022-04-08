@@ -3,14 +3,17 @@ import Head from "next/head"
 import Image from "next/image"
 import Navbar from "../components/navigationbar"
 import Footer from "../components/footer"
+import Ul from "../components/ul"
 
 
-{/* Image path object array currently in progress but has to be put on hold for a little  */}
+{/* Image path object array currently in progress but has to be put on hold for a little  
 let testImages = [
     { src: "/../public/Logos/browsbybec.jpg" },
     { src: "/../public/Logos/letsgetlashed.jpg" },
     { src: "/../public/Logos/youandeye.jpg" }
 ]
+*/}
+
 
 
 export default function otherbusinesses() {
@@ -28,111 +31,56 @@ export default function otherbusinesses() {
                         <p className="lg:w-4/5 mx-auto leading-relaxed text-justify text-base font-gayathri">The Clarity beauty lounge has been designed to take you to another place. It’s peaceful atmosphere and visionary design will have you relaxed within minutes of arriving. The beautiful large windows open up the space and have you feeling apart of the big wide world. The stunning glow of the natural sunlight instantly has you at the gateway to heaven. The Clarity beauty lounge is comprised of Adelaide beauty businesses that all take beauty to the next level. Each business has been hand picked by James to ensure the highest quality of work is being produced. These businesses not only take the upmost pride in their profession but also have a passion for ensuring all of their clients are looked after with heartfelt care. Please take a moment to become familiar with these local Adelaide businesses that have so lovingly been selected to have residency at the Clarity beauty lounge.</p>
                     </div>
                     <div className="flex flex-wrap -m-4 grid-cols-1">
-                        <div className="p-4 mb-5">
-                            <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                <div className="flex-shrink-0 rounded-lg  object-cover object-center sm:mb-0 mb-4">
-                                    <Image src="/Logos/letsgetlashed.jpg" width={285} height={200} />
-                                </div>
-                                <div className="flex-grow sm:pl-8">
-                                    <h2 className="title-font font-medium text-4xl text-gray-900 font-italianno tracking-wider">Let's Get Lashed</h2>
-                                    <h3 className="mb-3 font-gayathri">Khiara - @letsgetlasheddd</h3>
-                                    <p className="mb-4 text-justify font-gayathri">Khiara is the face behind Let’s Get Lashed.  She has owned her own lash and brow business for 5 years and still has the same passion as day 1. She specialises in all lash extension services including classNameics, hybrids and volumes, you name it she can do it. She also has you covered for your lash lifts and tints.
-                                        Stand out with beautiful brows ~ Khiara is also skilled in brow waxing and takes pleasure in creating the perfect shape to suit you. With laminations being a hot trend she can give you the bold brows you always dreamed of and tops it of with a hybrid tint giving you the perfect definition. To book in with Khiara click on the link in her Instagram bio.</p>
-                                    <span className="inline-flex">
-                                        <a className="button--svg" href="https://instagram.com/letsgetlasheddd?utm_medium=copy_link" target="_blank" rel="noreferrer">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" role="img" aria-labelledby="instagram-icon">
-                                                <title id="instagram-icon">Instagram</title>
-                                                <path fill="#d5bfa4" d="M29.76 29.03v-7.373h-1.537c.152.48.23.975.23 1.49 0 .958-.243 1.838-.73 2.647-.485.807-1.146 1.447-1.98 1.918-.834.47-1.744.705-2.73.705-1.495 0-2.773-.514-3.835-1.543-1.062-1.027-1.593-2.27-1.593-3.726 0-.517.076-1.013.228-1.49H16.21v7.373c0 .2.065.37.2.5.13.14.296.2.494.2H29.07c.188 0 .352-.06.488-.2s.202-.3.202-.49zm-3.233-6.064c0-.94-.343-1.743-1.03-2.406-.686-.664-1.515-.996-2.486-.996-.96 0-1.78.332-2.47.996-.68.663-1.03 1.466-1.03 2.406 0 .942.35 1.743 1.03 2.407s1.51.996 2.48.996c.975 0 1.8-.34 2.49-1s1.03-1.47 1.03-2.41zm3.233-4.097v-1.88c0-.22-.076-.4-.23-.56-.15-.158-.336-.235-.556-.235h-1.98c-.22 0-.406.08-.558.233-.15.155-.228.34-.228.552v1.876c0 .22.076.404.228.556s.337.23.558.23h1.98c.22 0 .406-.078.557-.23.16-.15.23-.338.23-.558zm1.98-2.37v12.99c0 .61-.22 1.14-.66 1.58-.44.44-.967.66-1.582.66H16.502c-.614 0-1.142-.22-1.582-.66-.44-.44-.66-.97-.66-1.586V16.5c0-.614.22-1.142.66-1.582.44-.44.967-.66 1.582-.66h12.996c.615 0 1.14.22 1.582.66.44.44.66.967.66 1.58z"/>
-                                            </svg>
-                                        </a>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="p-4">
-                            <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                <div className="flex-shrink-0 rounded-lg  object-cover object-center sm:mb-0 mb-4">
-                                    <Image src="/Logos/youandeye.jpg" width={285} height={200} />
-                                </div>
-                                <div className="flex-grow sm:pl-8">
-                                    <h2 className="title-font font-medium text-4xl text-gray-900 font-italianno tracking-wider tracking-wider">You and Eye Beauty</h2>
-                                    <h3 className="mb-3 font-gayathri">Tiffany - @youandeye.beauty_</h3>
-                                    <p className="mb-4 text-justify font-gayathri">With years of experience under her belt, Tiffany is well experienced and trained to help all the lovely ladies of adelaide feel the best they can in their own skin.
-                                        Passionate about health, beauty and helping all women feel beautiful, Tiffany has hand-chosen all her lash products personally, and uses only the highest quality products possible.
-                                        Having run her own successful lash business for years, Tiffany knows the importance of offering after-hour services - which she is happy to offer to all you gorgeous girls.
-                                        We can’t wait for you all to meet Tiffany; and to book in for your next set of gorgeous lash extensions with one of the best in the industry.
-                                    </p>
-                                    <span className="inline-flex">
-                                        <a className="button--svg" href="https://instagram.com/youandeye.beauty_?utm_medium=copy_link" target="_blank" rel="noreferrer">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" role="img" aria-labelledby="instagram-icon">
-                                                <title id="instagram-icon">Instagram</title>
-                                                <path fill="#d5bfa4" d="M29.76 29.03v-7.373h-1.537c.152.48.23.975.23 1.49 0 .958-.243 1.838-.73 2.647-.485.807-1.146 1.447-1.98 1.918-.834.47-1.744.705-2.73.705-1.495 0-2.773-.514-3.835-1.543-1.062-1.027-1.593-2.27-1.593-3.726 0-.517.076-1.013.228-1.49H16.21v7.373c0 .2.065.37.2.5.13.14.296.2.494.2H29.07c.188 0 .352-.06.488-.2s.202-.3.202-.49zm-3.233-6.064c0-.94-.343-1.743-1.03-2.406-.686-.664-1.515-.996-2.486-.996-.96 0-1.78.332-2.47.996-.68.663-1.03 1.466-1.03 2.406 0 .942.35 1.743 1.03 2.407s1.51.996 2.48.996c.975 0 1.8-.34 2.49-1s1.03-1.47 1.03-2.41zm3.233-4.097v-1.88c0-.22-.076-.4-.23-.56-.15-.158-.336-.235-.556-.235h-1.98c-.22 0-.406.08-.558.233-.15.155-.228.34-.228.552v1.876c0 .22.076.404.228.556s.337.23.558.23h1.98c.22 0 .406-.078.557-.23.16-.15.23-.338.23-.558zm1.98-2.37v12.99c0 .61-.22 1.14-.66 1.58-.44.44-.967.66-1.582.66H16.502c-.614 0-1.142-.22-1.582-.66-.44-.44-.66-.97-.66-1.586V16.5c0-.614.22-1.142.66-1.582.44-.44.967-.66 1.582-.66h12.996c.615 0 1.14.22 1.582.66.44.44.66.967.66 1.58z"/>
-                                            </svg>
-                                        </a>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="p-4">
-                            <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                <div className="flex-shrink-0 rounded-lg  object-cover object-center sm:mb-0 mb-4">
-                                    <Image src="/Logos/browsbybec.jpg" width={285} height={200} />
-                                </div>
-                                <div className="flex-grow sm:pl-8">
-                                    <h2 className="title-font font-medium text-4xl text-gray-900 font-italianno">Brows by Bec</h2>
-                                    <h3 className="mb-3 font-gayathri">Bec - @brows_bybec </h3>
-                                    <p className="mb-4 text-justify font-gayathri">Brows by Bec offers Cosmetic Tattooing services. This includes the Ombré Brow technique, Feather touch Brows (Microblading) and the Combination Brow technique.
-                                        Bec has been a Cosmetic eyebrow Tattoo specialist for almost 2.5 years now. She has a passion for all things beauty and loves transforming & enhancing brows. Bec takes pride in ensuring each set of brows
-                                        is personalised for each person’s face shape and features through every appointment. She completes this through pre drawing each set of brows and engaging with her clientele to choose the perfect colour to match
-                                        their brow hairs and facial features. Whether a natural enhancement or a bold brow is your preference, Bec can create a fabulous semi permanent set of brows All bookings can be made via Instagram.
-                                    </p>
-                                    <span className="inline-flex">
-                                        <a className="button--svg" href="https://instagram.com/brows_bybec?utm_medium=copy_link" target="_blank" rel="noreferrer">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" role="img" aria-labelledby="instagram-icon">
-                                                <title id="instagram-icon">Instagram</title>
-                                                <path fill="#d5bfa4" d="M29.76 29.03v-7.373h-1.537c.152.48.23.975.23 1.49 0 .958-.243 1.838-.73 2.647-.485.807-1.146 1.447-1.98 1.918-.834.47-1.744.705-2.73.705-1.495 0-2.773-.514-3.835-1.543-1.062-1.027-1.593-2.27-1.593-3.726 0-.517.076-1.013.228-1.49H16.21v7.373c0 .2.065.37.2.5.13.14.296.2.494.2H29.07c.188 0 .352-.06.488-.2s.202-.3.202-.49zm-3.233-6.064c0-.94-.343-1.743-1.03-2.406-.686-.664-1.515-.996-2.486-.996-.96 0-1.78.332-2.47.996-.68.663-1.03 1.466-1.03 2.406 0 .942.35 1.743 1.03 2.407s1.51.996 2.48.996c.975 0 1.8-.34 2.49-1s1.03-1.47 1.03-2.41zm3.233-4.097v-1.88c0-.22-.076-.4-.23-.56-.15-.158-.336-.235-.556-.235h-1.98c-.22 0-.406.08-.558.233-.15.155-.228.34-.228.552v1.876c0 .22.076.404.228.556s.337.23.558.23h1.98c.22 0 .406-.078.557-.23.16-.15.23-.338.23-.558zm1.98-2.37v12.99c0 .61-.22 1.14-.66 1.58-.44.44-.967.66-1.582.66H16.502c-.614 0-1.142-.22-1.582-.66-.44-.44-.66-.97-.66-1.586V16.5c0-.614.22-1.142.66-1.582.44-.44.967-.66 1.582-.66h12.996c.615 0 1.14.22 1.582.66.44.44.66.967.66 1.58z"/>
-                                            </svg>
-                                        </a>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="p-4">
-                            <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                <div className="flex-shrink-0 rounded-lg  object-cover object-center sm:mb-0 mb-4">
-                                    <Image src="/Logos/beautybybridie.jpg" width={285} height={200} />
-                                </div>
-                                <div className="flex-grow sm:pl-8">
-                                    <h2 className="title-font font-medium text-4xl text-gray-900 font-italianno">Beauty by Bridie</h2>
-                                    <h3 className="mb-3 font-gayathri">Bridie - @beautybybridie  </h3>
-                                    <p className="mb-4 text-justify font-gayathri">Bridie established Beauty by Bridie when she was 16 years old. She has been working as a professional makeup artist in the industry for over 7 years. 
-                                        Beauty by Bridie is a Wild and Organic, #eco-conscious, #sustainable, #cleanbeauty business. Bridie uses all #organic, #vegan products in her kit and is a stockist for @inikaorganic where she has the skincare and makeup lines available for purchase. 
-                                        Beauty by Bridie is not just limited to makeup. Her services include: <br/> <br/>
-                                        - Professional Makeup Applications <br/>
-                                        - Hair Styling <br/>
-                                        - Bridal Parties <br/>
-                                        - 1:1 Lessons <br/>
-                                        - Aspiring MUA Lessons <br/>
-                                        - Organic Facials <br/>
-                                        - Intuitive Massage <br/>
-                                        - Intuitive Movement & Meditation Classes <br/>
-                                        - Personalised Organic Artworks (painted with berries, ochre & other naturally derived plant materials)<br/>
-                                        - Adolescent Youth Mentoring and Empowerment Programs<br/> <br/>
-                                        Bridie purpose is to work with likeminded souls and help them to remember their power. To connect them to their inner goddess and inspire others to be the best version of themselves and chase their dreams and aspirations. Bridie has been working with youth for over 5 years inspiring them to do just that. 
-                                        Not only will you receive your beautiful pampering treatment with Bridie, you will also leave feeling refreshed, recharged and held in a space of unconditional love, joy and deep connection 
-                                    </p>
-                                    <span className="inline-flex">
-                                        <a className="button--svg" href="https://instagram.com/beautybybridie?utm_medium=copy_link" target="_blank" rel="noreferrer">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" role="img" aria-labelledby="instagram-icon">
-                                                <title id="instagram-icon">Instagram</title>
-                                                <path fill="#d5bfa4" d="M29.76 29.03v-7.373h-1.537c.152.48.23.975.23 1.49 0 .958-.243 1.838-.73 2.647-.485.807-1.146 1.447-1.98 1.918-.834.47-1.744.705-2.73.705-1.495 0-2.773-.514-3.835-1.543-1.062-1.027-1.593-2.27-1.593-3.726 0-.517.076-1.013.228-1.49H16.21v7.373c0 .2.065.37.2.5.13.14.296.2.494.2H29.07c.188 0 .352-.06.488-.2s.202-.3.202-.49zm-3.233-6.064c0-.94-.343-1.743-1.03-2.406-.686-.664-1.515-.996-2.486-.996-.96 0-1.78.332-2.47.996-.68.663-1.03 1.466-1.03 2.406 0 .942.35 1.743 1.03 2.407s1.51.996 2.48.996c.975 0 1.8-.34 2.49-1s1.03-1.47 1.03-2.41zm3.233-4.097v-1.88c0-.22-.076-.4-.23-.56-.15-.158-.336-.235-.556-.235h-1.98c-.22 0-.406.08-.558.233-.15.155-.228.34-.228.552v1.876c0 .22.076.404.228.556s.337.23.558.23h1.98c.22 0 .406-.078.557-.23.16-.15.23-.338.23-.558zm1.98-2.37v12.99c0 .61-.22 1.14-.66 1.58-.44.44-.967.66-1.582.66H16.502c-.614 0-1.142-.22-1.582-.66-.44-.44-.66-.97-.66-1.586V16.5c0-.614.22-1.142.66-1.582.44-.44.967-.66 1.582-.66h12.996c.615 0 1.14.22 1.582.66.44.44.66.967.66 1.58z"/>
-                                            </svg>
-                                        </a>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                        <Ul 
+                            src="/Logos/letsgetlashed.jpg" 
+                            heading="Let’s Get Lashed" 
+                            heading2="Khiara - @letsgetlasheddd" 
+                            body = "Khiara is the face behind Let’s Get Lashed.  She has owned her own lash and brow business for 5 years and still has the same passion as day 1. She specialises in all lash extension services including classics, hybrids and volumes, you name it she can do it. She also has you covered for your lash lifts and tints.
+                            Stand out with beautiful brows. Khiara is also skilled in brow waxing and takes pleasure in creating the perfect shape to suit you. With laminations being a hot trend she can give you the bold brows you always dreamed of and tops it of with a hybrid tint giving you the perfect definition. To book in with Khiara click on the link in her Instagram bio " 
+                            instalink="https://instagram.com/letsgetlasheddd?utm_medium=copy_link"
+                        />
+                        <Ul 
+                            src="/Logos/youandeye.jpg" 
+                            heading="You and Eye Beauty" 
+                            heading2="Tiffany - @youandeye.beauty_" 
+                            body = "With years of experience under her belt, Tiffany is well experienced and trained to help all the lovely ladies of adelaide feel the best they can in their own skin. 
+                            Passionate about health, beauty and helping all women feel beautiful, Tiffany has hand-chosen all her lash products personally, and uses only the highest quality products possible.
+                            Having run her own successful lash business for years, Tiffany knows the importance of offering after-hour services - which she is happy to offer to all you gorgeous girls.
+                            We can’t wait for you all to meet Tiffany; and to book in for your next set of gorgeous lash extensions with one of the best in the industry! She will be working at Clarity on Thursdays and Saturdays and is now taking booking for March the 3rd and the 5th. 
+                            Head over to her page @youandeye.beauty_ for a follow and and have a look at her amazing work. To make an appointment please DM" 
+                            instalink="https://instagram.com/youandeye.beauty_?utm_medium=copy_link"
+                        />
+                        <Ul 
+                            src="/Logos/browsbybec.jpg" 
+                            heading="Brows by Bec" 
+                            heading2="Bec - @brows_bybec" 
+                            body = "Brows by Bec offers Cosmetic Tattooing services. This includes the Ombré Brow technique, Feather touch Brows (Microblading) and the Combination Brow technique.
+                            Bec has been a Cosmetic eyebrow Tattoo specialist for almost 2.5 years now. She has a passion for all things beauty and loves transforming & enhancing brows. 
+                            Bec takes pride in ensuring each set of brows is personalised for each person’s face shape and features through every appointment. She completes this through pre drawing each set of brows and engaging with her clientele to choose the perfect colour to match their brow hairs and facial features. Whether a natural enhancement or a bold brow is your preference, Bec can create a fabulous semi permanent set of brows! All bookings can be made via Instagram" 
+                            instalink="https://instagram.com/brows_bybec?utm_medium=copy_link"
+                        />
+                        <Ul 
+                            src="/Logos/beautybybridie.jpg" 
+                            heading="Beauty by Bridie" 
+                            heading2="Test heading 2" 
+                            body = "Bridie established Beauty by Bridie when she was 16 years old. She has been working as a professional makeup artist in the industry for over 7 years. 
+                            Beauty by Bridie is a Wild and Organic, #eco-conscious, #sustainable, #cleanbeauty business. Bridie uses all #organic, #vegan products in her kit and is a stockist for @inikaorganic where she has the skincare and makeup lines available for purchase. 
+                            Beauty by Bridie is not just limited to makeup. Her services include:<br/><br/>
+                            - Professional Makeup Applications <br/>
+                            - Hair Styling <br/>
+                            - Bridal Parties <br/>
+                            - 1:1 Lessons <br/>
+                            - Aspiring MUA Lessons <br/>
+                            - Organic Facials <br/>
+                            - Intuitive Massage <br/>
+                            - Intuitive Movement & Meditation Classes <br/>
+                            - Personalised Organic Artworks (painted with berries, ochre & other naturally derived plant materials) <br/>
+                            - Adolescent Youth Mentoring and Empowerment Programs<br/><br/>
+                            Bridie purpose is to work with likeminded souls and help them to remember their power. To connect them to their inner goddess and inspire others to be the best version of themselves and chase their dreams and aspirations. Bridie has been working with youth for over 5 years inspiring them to do just that. 
+                            Not only will you receive your beautiful pampering treatment with Bridie, you will also leave feeling refreshed, recharged and held in a space of unconditional love, joy and deep connection" 
+                            instalink="https://instagram.com/beautybybridie?utm_medium=copy_link"
+                        />
+                </div>
                 </div>
             </section>
             <Footer />
