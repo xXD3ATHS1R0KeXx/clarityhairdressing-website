@@ -14,6 +14,7 @@ export default function Home() {
 			</Head>
 			<Navbar/>
 			<HeroSection />
+			<div className="p-5"/>
 			<Aboutsection />
 			<Footer />
 		</div>

@@ -5,10 +5,10 @@ import Button from "./button"
 
 export default function HeroSection() {
 	return (
-		<div className="flex justify-center items-center text-center z-0 animate-fade-in-down pt-24 md:pt-32 md:pt-10">
+		<div className="flex justify-center items-center text-center z-0 animate-fade-in-down pt-24 md:pt-0">
         <Image src={wings} width={800} height={800} priority />
         <div className="absolute">
-          <h1 className=" text-gray-900 text-7xl md:text-8xl font-italianno mt-40">
+          <h1 className=" text-gray-900 text-7xl md:text-8xl font-italianno mt-80 md:mt-96">
             Clarity
           </h1>
           <h2 className=" text-gray-900 md:text-4xl text-3xl font-italianno tracking-wider">
