@@ -21,7 +21,7 @@ export default function footer(){
 							Address: 239 Brighton Rd, Somerton Park SA 5044
 						</li>	
 						<li className='font-gayathri text-white mb-4'>	
-							Phone: 0410147583 
+							Phone: 0410 147 583 
 						</li>
 						<li className='font-gayathri text-white mb-4'>
 							Email: test@gmail.com

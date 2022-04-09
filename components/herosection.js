@@ -26,7 +26,7 @@ export default function HeroSection() {
             <Button src="https://bookings.gettimely.com/jameshendersonhairdressing/bb/book">Book now</Button>
           </div>
           <div className="mt-5 font-gayathri text-gray-500">
-            <p className="tracking-wider"> Please note some services are only available through booking on Instagram at @clarity_by_jameshenderson </p>
+            <p className="tracking-wider px-5 md:px-0"> Please note some services are only available through booking on Instagram at @clarity_by_jameshenderson </p>
           </div>
       </div>
     </div>
