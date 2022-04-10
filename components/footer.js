@@ -24,7 +24,7 @@ export default function footer(){
 							Phone: 0410 147 583 
 						</li>
 						<li className='font-gayathri text-white mb-4'>
-							Email: test@gmail.com
+							Email: clarity.by.jameshenderson@gmail.com
 						</li>
 					</ul>
 				</div>

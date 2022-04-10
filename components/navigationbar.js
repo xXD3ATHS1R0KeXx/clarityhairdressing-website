@@ -33,7 +33,7 @@ export default function Navbar() {
 										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-1 py-2 rounded-md text-base lg:px-3 lg:text-2xl">Gallery</a>
 									</Link>
 									*/}
-									<Link href="/">
+									<Link href="https://bookings.gettimely.com/jameshendersonhairdressing/bb/book">
 										<a className="cursor-pointer hover:bg-buttonGold text-offwhite px-1 py-2 rounded-md text-base lg:px-3 lg:text-2xl">Book Now</a>
 									</Link>
 								</div>

@@ -3,7 +3,7 @@ import Head from "next/head"
 import Image from "next/image"
 import Navbar from "../components/navigationbar"
 import Footer from "../components/footer"
-import Ul from "../components/ul"
+import BusinessLayout from "../components/businesslayout"
 
 
 {/* Image path object array currently in progress but has to be put on hold for a little  
@@ -30,7 +30,7 @@ export default function otherbusinesses() {
                         <p className="lg:w-4/5 mx-auto leading-relaxed text-justify text-base font-gayathri">The Clarity beauty lounge has been designed to take you to another place. It’s peaceful atmosphere and visionary design will have you relaxed within minutes of arriving. The beautiful large windows open up the space and have you feeling apart of the big wide world. The stunning glow of the natural sunlight instantly has you at the gateway to heaven. The Clarity beauty lounge is comprised of Adelaide beauty businesses that all take beauty to the next level. Each business has been hand picked by James to ensure the highest quality of work is being produced. These businesses not only take the upmost pride in their profession but also have a passion for ensuring all of their clients are looked after with heartfelt care. Please take a moment to become familiar with these local Adelaide businesses that have so lovingly been selected to have residency at the Clarity beauty lounge.</p>
                     </div>
                     <div className="flex flex-wrap -m-4 grid-cols-1">
-                        <Ul 
+                        <BusinessLayout 
                             src="/Logos/letsgetlashed.jpg" 
                             heading="Let’s Get Lashed" 
                             heading2="Khiara - @letsgetlasheddd" 
@@ -38,7 +38,7 @@ export default function otherbusinesses() {
                             Stand out with beautiful brows. Khiara is also skilled in brow waxing and takes pleasure in creating the perfect shape to suit you. With laminations being a hot trend she can give you the bold brows you always dreamed of and tops it of with a hybrid tint giving you the perfect definition. To book in with Khiara click on the link in her Instagram bio " 
                             instalink="https://instagram.com/letsgetlasheddd?utm_medium=copy_link"
                         />
-                        <Ul 
+                        <BusinessLayout 
                             src="/Logos/youandeye.jpg" 
                             heading="You and Eye Beauty" 
                             heading2="Tiffany - @youandeye.beauty_" 
@@ -49,7 +49,7 @@ export default function otherbusinesses() {
                             Head over to her page @youandeye.beauty_ for a follow and and have a look at her amazing work. To make an appointment please DM" 
                             instalink="https://instagram.com/youandeye.beauty_?utm_medium=copy_link"
                         />
-                        <Ul 
+                        <BusinessLayout 
                             src="/Logos/browsbybec.jpg" 
                             heading="Brows by Bec" 
                             heading2="Bec - @brows_bybec" 
@@ -58,7 +58,7 @@ export default function otherbusinesses() {
                             Bec takes pride in ensuring each set of brows is personalised for each person’s face shape and features through every appointment. She completes this through pre drawing each set of brows and engaging with her clientele to choose the perfect colour to match their brow hairs and facial features. Whether a natural enhancement or a bold brow is your preference, Bec can create a fabulous semi permanent set of brows! All bookings can be made via Instagram" 
                             instalink="https://instagram.com/brows_bybec?utm_medium=copy_link"
                         />
-                        <Ul 
+                        <BusinessLayout 
                             src="/Logos/beautybybridie.jpg" 
                             heading="Beauty by Bridie" 
                             heading2="Bridie - beautybybridie" 

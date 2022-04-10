@@ -4,7 +4,7 @@ import Image from "next/image"
 
 
 
-export default function ul(props) {
+export default function businessLayout(props) {
     return (
         <div className="p-4 mb-5">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
