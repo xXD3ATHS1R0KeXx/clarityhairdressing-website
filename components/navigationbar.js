@@ -112,7 +112,7 @@ export default function Navbar() {
 								<Link href="">
 									<a className="cursor-pointer text-white block px-3 py-2 rounded-md text-base font-medium"> Gallery</a>
 								</Link>	*/}
-								<Link href="">
+								<Link href="https://bookings.gettimely.com/jameshendersonhairdressing/bb/book">
 									<a className="cursor-pointer text-white block px-3 py-2 rounded-md text-base font-medium"> Book Now </a>
 								</Link>
 							</div>
